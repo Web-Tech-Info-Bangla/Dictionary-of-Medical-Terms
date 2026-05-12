@@ -1,2 +1,39 @@
-# Dictionary-of-Medical-Terms
-dictionary-medical-terms
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Medical Dictionary</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      text-align: center;
+      padding: 10px;
+      background: #f2f2f2;
+      font-size: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="header">
+  📘 Dictionary of Medical Terms
+</div>
+
+<iframe 
+src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://web-tech-info-bangla.github.io/Dictionary-of-Medical-Terms/medical-dictionary.pdf">
+</iframe>
+
+</body>
+</html>
